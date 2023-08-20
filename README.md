@@ -45,5 +45,13 @@ int main(){
 
 }
 ```
+### cpp comments
 
+```cpp
+// one line comment
 
+/*
+    Multiline blok comment
+    Amazing
+*/
+```

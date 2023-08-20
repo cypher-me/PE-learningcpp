@@ -1,10 +1,6 @@
-#include <iostream>
+// one line comment
 
-consteval int get_value(){
-    return 3;
-}
-
-int main(){
-    
-    return 0; 
-}
+/*
+    Multiline blok comment
+    Amazing
+*/
