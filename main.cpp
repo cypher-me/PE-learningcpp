@@ -5,6 +5,6 @@ consteval int get_value(){
 }
 
 int main(){
-    std::cout << "manu is awsome" << std::endl;
+    
     return 0; 
 }
