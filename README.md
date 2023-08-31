@@ -45,6 +45,7 @@ int main(){
 
 }
 ```
+
 ### cpp comments
 
 ```cpp
@@ -55,3 +56,28 @@ int main(){
     Amazing
 */
 ```
+
+## Day Three
+
+### Errors and warnings 2:01
+
+There are three types
+
+- compile-time errors
+- runtime errors
+- warnings
+
+```cpp
+int main() {
+    // compile time errors the lack of a semicolon causes the code not to be compiled
+    std::cout << "manu is awsome" << std::endl
+    
+}
+
+```
+
+Runtime error is a logical error that arires after compilation
+it can cause the program to crash
+
+Warnings not serious enough to halt compilation. Should be fixed before it becomes a major error
+
