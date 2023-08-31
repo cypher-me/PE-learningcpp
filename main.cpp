@@ -1,9 +1,11 @@
-// Errors and warnings
-
 #include <iostream>
+// Functions
 
-int main() {
-    // compile time errors
-    std::cout << "manu is awsome" << std::endl
-    
+int addNumber(int firstNumber, int secondNumber) {
+    int sum = firstNumber + secondNumber;
+    return sum;
+}
+
+int main(){
+    std::cout << addNumber(4,5) << std::endl;
 }

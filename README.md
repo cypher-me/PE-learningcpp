@@ -81,3 +81,25 @@ it can cause the program to crash
 
 Warnings not serious enough to halt compilation. Should be fixed before it becomes a major error
 
+### Statements and functions 2:13
+
+Statement is a basic unit of computation
+They end with a semicolon
+They include variables
+
+#### Functions
+
+They are defined outside the main function
+Should be defined before they are called
+A function to add numbers
+
+```cpp
+int addNumber(int firstNumber, int secondNumber) {
+    int sum = firstNumber + secondNumber;
+    return sum;
+}
+
+int main (){
+    // call the function
+}
+```
