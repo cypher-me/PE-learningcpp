@@ -103,3 +103,56 @@ int main (){
     // call the function
 }
 ```
+
+### Input Output 2:31
+
+#### std::cout 
+
+Printing data to console
+Used for output to the terminal
+The arrows point to cout to signal data is going to std::cout
+Get data prom program to terminal
+```cpp
+    std::cout << "Hello world" << std::endl;
+```
+
+#### std::cin
+
+Reading data from the terminal
+
+```cpp
+int main(){
+    int age;
+    std::string name;
+
+    std::cout << "What is our name: " << std::endl;
+    std::cin >> name;
+
+    std::cout << "What is your age: " << std::endl;
+    std::cin >> age;
+
+    std::cout << "Name : " << name << "Age : " << age << std::endl;
+}
+```
+You can also us std::cin to chain input into multiple variables when input is seperated by spaces
+```cpp
+
+```
+
+#### std::cerr 
+
+Printing errors to the console
+
+#### std::clog 
+
+Print log messages to the console
+
+```cpp
+int main(){
+    std::cout << "Hello world" << std::endl;
+    std::cout << "the number is :" << numberOut << std::endl;
+    std::cerr << "std::cerr output: Something went wrong" << std::endl;
+    std::clog << "std::clog output: This is a log message" << std::endl;
+}
+```
+
