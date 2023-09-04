@@ -198,3 +198,16 @@ value as a placeholder.
                 //placeholder in memory
 ```
 
+### C++ core language Vs Standard Library Vs STL
+
+- Core feature - basic building block that makes up cpp lang,
+                - They are basically the rules that govern what you can do and cannot do with cpp. eg Int 
+
+- Standard Library - Set of ready to use highly specialised components that can easyly be used in a cpp program eg `<iostream> <string>`
+
+- STL - Part of standard library. Collection of container of types eg iterators, funcions and algorithms.
+
+
+
+
+
