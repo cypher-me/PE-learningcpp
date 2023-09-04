@@ -121,7 +121,6 @@ Get data prom program to terminal
 Reading data from the terminal
 
 ```cpp
-int main(){
     int age;
     std::string name;
 
@@ -132,11 +131,18 @@ int main(){
     std::cin >> age;
 
     std::cout << "Name : " << name << "Age : " << age << std::endl;
-}
-```
-You can also us std::cin to chain input into multiple variables when input is seperated by spaces
-```cpp
 
+```
+
+You can also us std::cin to chain input into multiple variables when input is seperated by spaces
+
+```cpp
+    int age;
+    std::string name;
+
+    std::cout << "Enter name and age seperated by a space :" << std::endl;
+    std::cin >> name >> age;
+    std::cout << "Name : " << name << "  Age : " << age << std::endl;
 ```
 
 #### std::cerr 
