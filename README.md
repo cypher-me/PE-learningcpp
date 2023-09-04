@@ -168,6 +168,10 @@ You bypass this by the `std::getline(<stream_where_data_is_to_go_eg>std::cin,<va
 
 Printing errors to the console
 
+```cpp
+    std::cerr << "Custom error message " << std::endl;
+```
+
 #### std::clog 
 
 Print log messages to the console
@@ -179,5 +183,18 @@ Print log messages to the console
     std::cerr << "std::cerr output: Something went wrong" << std::endl;
     std::clog << "std::clog output: This is a log message" << std::endl;
 
+```
+
+### C++ Program Execution and Memory Model.
+
+When you run a compiled progrum it is loaded into
+memory and is run by the cpu.
+When the program is done running it is removed 
+from memory and space freed.
+In memory an empty variable is assigned a random 
+value as a placeholder. 
+```cpp
+    int age; // The empty variable is assigned a random
+                //placeholder in memory
 ```
 
