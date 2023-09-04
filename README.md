@@ -145,6 +145,25 @@ You can also us std::cin to chain input into multiple variables when input is se
     std::cout << "Name : " << name << "  Age : " << age << std::endl;
 ```
 
+Reading data with spaces.
+The program will crash if input is multiple words
+You bypass this by the `std::getline(<stream_where_data_is_to_go_eg>std::cin,<variable_to_read_the_data>)`
+
+```cpp
+    int age;
+    std::string name;
+
+    std::cout << "What is your name :  " << std::endl;
+    std::getline(std::cin, name);
+    // std::cin >> name;
+
+    std::cout << "Please input your age :  " << std::endl;
+    std::cin >> age;
+
+    std::cout << "Your name is : " << name << " and age is : " << age << std::endl;
+```
+
+
 #### std::cerr 
 
 Printing errors to the console
@@ -154,11 +173,11 @@ Printing errors to the console
 Print log messages to the console
 
 ```cpp
-int main(){
+
     std::cout << "Hello world" << std::endl;
     std::cout << "the number is :" << numberOut << std::endl;
     std::cerr << "std::cerr output: Something went wrong" << std::endl;
     std::clog << "std::clog output: This is a log message" << std::endl;
-}
+
 ```
 
