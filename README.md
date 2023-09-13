@@ -195,18 +195,39 @@ In memory an empty variable is assigned a random
 value as a placeholder. 
 ```cpp
     int age; // The empty variable is assigned a random
-                //placeholder in memory
+             //placeholder in memory
 ```
 
 ### C++ core language Vs Standard Library Vs STL
 
 - Core feature - basic building block that makes up cpp lang,
-                - They are basically the rules that govern what you can do and cannot do with cpp. eg Int 
+                - They are basically the rules that govern what you can do and cannot do with cpp. eg `Int`
 
 - Standard Library - Set of ready to use highly specialised components that can easyly be used in a cpp program eg `<iostream> <string>`
 
 - STL - Part of standard library. Collection of container of types eg iterators, funcions and algorithms.
 
+## Day 4 3:00
+
+### Variables, Number Systems and data types
+
+#### Data types
+- `int ` Predefined type in cpp. Reps whole numbers
+- `double` Rep fractional numbers. decimal numbers.
+- `float` Rep fractional numbers. decimal numbers.
+- `char` Characters in memory.
+- `bool` Stores two possible  values
+- `void` typeless type
+- `auto` not a type. A keyword actually
+
+#### Number Systems
+- Decimal (Base 10)
+- Binary (Base 2)
+- Octal (Base 8)
+- hex (Base 16)
+```cpp
+
+```
 
 
 
