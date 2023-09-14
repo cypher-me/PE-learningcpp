@@ -148,6 +148,27 @@ You can also us std::cin to chain input into multiple variables when input is se
 Reading data with spaces.
 The program will crash if input is multiple words
 You bypass this by the `std::getline(<stream_where_data_is_to_go_eg>std::cin,<variable_to_read_the_data>)`
+Eg
+
+```cpp
+    #include <iostream>
+    std::string name;
+    int age;
+
+    int main() {
+        std::cout << "Please enter your names..." << std::endl; // input with spaces
+        // std::cin >> name >> age;
+        std::getline(std::cin, name);
+        std::cout << "Your name is : " << name << std::endl;
+    }
+
+    // Output 
+    /*
+        Please enter your names...
+        manu is awsome
+        Your name is : manu is awsome
+    */
+```
 
 ```cpp
     int age;
@@ -227,8 +248,21 @@ value as a placeholder.
 - hex (Base 16)
 ```cpp
 
+    int number1 = 15; //Decimal
+    int number2 = 017; //Octal
+    int number3 = 0x0f; //hexadecimal
+    int number4 = 0b0000111; // Binary
+
+    int main()
+    {
+        std::cout << "Hello world from manu" << std::endl;
+        std::cout << "Number 1 is :  " << number1 << std::endl; // 15
+        std::cout << "Number 2 is :  " << number2 << std::endl; // 15
+        std::cout << "Number 3 is :  " << number3 << std::endl; // 15
+        std::cout << "Number 4 is :  " << number4 << std::endl; // 15
+
+        return 0;
+    }
+
 ```
-
-
-
 
