@@ -265,4 +265,12 @@ value as a placeholder.
     }
 
 ```
+#### Integers (In detail) 3:22
+
+Rep whole numbers.
+Occupy 4 bytes or more in memory.
+Variable : named piece of memory used to store 
+specific types of data.
+
+
 
