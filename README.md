@@ -272,5 +272,25 @@ Occupy 4 bytes or more in memory.
 Variable : named piece of memory used to store 
 specific types of data.
 
+```cpp
+    int apple_count{5};
+    int orange_count{10};
+    int fruit_count{apple_count + orange_count};
+
+    int narrow_conversion_functional{2.9}; //causes a compilation error
+    //compilation is unsuccessfull
+```
+
+#### Functional initialization 3:35 
+Uses brackets instead of curly brackets ()
 
 
+```cpp
+    int apple_count(5);
+    int orange_count(10);
+    int fruit_count(apple_count + orange_count);
+
+    int narrow_conversion_functional(2.9); //outputs 2
+    //Infomation is lost but the compilation is successfull
+    // Not recommended
+```
