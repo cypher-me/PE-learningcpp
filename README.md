@@ -348,3 +348,5 @@ Does not work with floating point numbers.
     signed long long int signed_long_long_int {-456}; //8 bytes
     unsigned long long int unsigned_long_long_int {456}; //8 bytes
 ```
+
+#### Fractional Numbers(floating Points)
